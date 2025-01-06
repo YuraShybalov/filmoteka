@@ -8,12 +8,12 @@ import Layout from './Layouts/Layout';
 export const App = () => {
   return (
     <>
-    
-    <Routes>
-      <Route psth="/" element={<Layout />} />
-      <Route path="/movies" element={<Movies />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+      <Layout />
+      <Routes>
+        <Route psth="/" element={<Layout />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
   );
 };
