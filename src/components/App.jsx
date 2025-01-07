@@ -1,19 +1,21 @@
 import { Routes, Route } from 'react-router-dom';
 
-// import Home from './../pages/Home/Home';
+import Home from './../pages/Home/Home';
 import Movies from './../pages/Movies/Movies';
 import NotFound from './../pages/NotFound/NotFound';
 import Layout from './Layouts/Layout';
 
 export const App = () => {
   return (
-    <>
-      <Layout />
-      <Routes>
-        <Route psth="/" element={<Layout />} />
+    // <>
+    // {/* <Layout /> */}
+    <Routes>
+      <Route psth="/" element={<Layout />}>
+        <Route index element={<Home />} />
         <Route path="/movies" element={<Movies />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </>
+      </Route>
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+    // </>
   );
 };
