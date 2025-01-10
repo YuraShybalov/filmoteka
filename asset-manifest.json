@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/filmoteka/static/css/main.7acaea2f.css",
-    "main.js": "/filmoteka/static/js/main.2b2c813a.js",
+    "main.css": "/filmoteka/static/css/main.6135df0d.css",
+    "main.js": "/filmoteka/static/js/main.fa8dff66.js",
     "index.html": "/filmoteka/index.html",
-    "main.7acaea2f.css.map": "/filmoteka/static/css/main.7acaea2f.css.map",
-    "main.2b2c813a.js.map": "/filmoteka/static/js/main.2b2c813a.js.map"
+    "main.6135df0d.css.map": "/filmoteka/static/css/main.6135df0d.css.map",
+    "main.fa8dff66.js.map": "/filmoteka/static/js/main.fa8dff66.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.2b2c813a.js"
+    "static/css/main.6135df0d.css",
+    "static/js/main.fa8dff66.js"
   ]
 }
