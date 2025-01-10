@@ -1,0 +1,15 @@
+.header {
+  padding-top: 20px;
+  width: 100%;
+}
+.headerNav {
+  display: flex;
+  gap: 20px;
+}
+.navLink {
+  color: black;
+  /* text-decoration: none; */
+}
+.navLink.active {
+  color: brown;
+}

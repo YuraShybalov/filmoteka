@@ -7,8 +7,6 @@ import Layout from './Layouts/Layout';
 
 export const App = () => {
   return (
-    // <>
-    // {/* <Layout /> */}
     <Routes>
       <Route psth="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -16,6 +14,5 @@ export const App = () => {
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
-    // </>
   );
 };
